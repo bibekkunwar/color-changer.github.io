@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.nav-center{
+    height: 4rem;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 4px black;
+    padding-top:  30px; 
+    margin-bottom: 1rem;
+
+}
+
+.nav-center h4{
+    font-size: 1.5rem;
+}
+
+nav a:hover{
+    color: grey;
+
+}
+
+h4{
+    color:green;
+}
+ul{
+    display: flex;
+    padding-right: 40px;
+}
+
+ul a{
+    font-size: 1.6rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+ul .active
+{
+    color: blue;
+}
+ul li{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    
+}
+ul li a{
+    color: black;
+    list-style: none;
+
+}
+main{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    background-color: black;
+    color: white;
+     text-align: center;
+}
+.color{
+    color: aliceblue;
+}
+
+.container h2 {
+    background: black;
+    color: white;
+    padding: 1rem;
+    border-radius: var(--radius);
+    margin-bottom: 2.5rem;
+  }
+
+  .btn-hero{
+    background-color: black;
+    font-size: 1.2rem;
+    padding: 0.7rem 1.25rem;
+    border: 2px solid yellow;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    background: transparent;
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+
+
+  .btn-hero:hover{
+    color: white;
+    background-color: black;
+  }

@@ -1,0 +1,7 @@
+{
+    "name": "bibek",
+    "score": 11,
+    "istrue": true,
+    "shop": ["sugar", "clothers", "tea"],
+    "obj": {"foods": "niryani", "clothes": "sural", "biryani":"chickcen"}
+}
